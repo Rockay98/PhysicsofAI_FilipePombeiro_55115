@@ -512,16 +512,50 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1429414618}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.6468486, y: 2.082889, z: 1.9175307}
   m_Center: {x: 0.012745738, y: 0.8264446, z: -0.19485897}
+--- !u!1 &1539986078 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6027507690873376459, guid: e57a33c6f3b0e4cb2a2af014c265b239, type: 3}
+  m_PrefabInstance: {fileID: 1354003426666338538}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1539986079 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6880403096463785013, guid: e57a33c6f3b0e4cb2a2af014c265b239, type: 3}
   m_PrefabInstance: {fileID: 1354003426666338538}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1539986082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539986078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbbbd88255f7c954a9c8af7b54758bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 9162047389006064978, guid: ff79618a07fdb60488d39c9b20390ee3, type: 3}
+  turret: {fileID: 1237362261}
+  enemy: {fileID: 620903246}
+  turretBase: {fileID: 1237362262}
+--- !u!65 &1539986083
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539986078}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2937057, y: 1.4354576, z: 1.9854589}
+  m_Center: {x: 0.00000005960466, y: 0.6634875, z: -0.055734858}
 --- !u!850595691 &1767831088
 LightingSettings:
   m_ObjectHideFlags: 0
